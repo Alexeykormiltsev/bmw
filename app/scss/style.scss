@@ -1,0 +1,123 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'global';
+
+.header {
+    padding: 24px 0 130px;
+    background-image: url(../images/header_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 54px;
+    }
+
+    .menu {
+        display: flex;
+        gap: 75px;
+        // justify-content: space-between;
+        align-items: center;
+
+        &__list {
+            display: flex;
+            gap: 75px;
+            // justify-content: space-between;
+            align-items: center;
+        }
+
+        &__item {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 120%;
+            color: #FFFFFF;
+
+            span {
+                display: block;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 20px;
+            }
+        }
+
+        .span-box {
+            display: flex;
+            gap: 8px;
+        }
+
+        &__link {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 120%;
+            color: #FFFFFF;
+        }
+
+        .box {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+
+            &__btn {
+                border: none;
+                background: transparent;
+                cursor: pointer;
+            }
+        }
+    }
+
+    &__content {
+        max-width: 510px;
+        color: #fff;
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 60px;
+        margin-bottom: 24px;
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 120%;
+        margin-bottom: 70px;
+    }
+
+    &__btn {
+        padding: 18px 68px 18px 40px;
+        color: #fff;
+        font-size: 16px;
+        background: #0185D5;
+        border-radius: 300px;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        &::after {
+            position: absolute;
+            content: "";
+            width: 24px;
+            height: 24px;
+            right: 34px;
+            top: 16px;
+            background-image: url(../images/arrow.png);
+        }
+
+    }
+}
+
+
+
+
+@import 'media';
