@@ -8,6 +8,7 @@
     background-image: url(../images/header_bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 
     &__top {
         display: flex;
@@ -114,10 +115,32 @@
             top: 16px;
             background-image: url(../images/arrow.png);
         }
-
     }
 }
 
+.work {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 10px;
+    border-radius: 32px;
+    background-color: #FFF;
+
+    &__cards {
+        display: flex;
+        justify-content: space-between;
+        margin-top: -50px;
+        height: 148px;
+    }
+
+    &__card {
+        padding: 24px 16px 32px;
+        background: rgba(255, 255, 255, 0.96);
+        border: 1px solid #E3E3E3;
+        backdrop-filter: blur(4px);
+        border-radius: 12px;
+        width: 310px;
+    }
+}
 
 
 
