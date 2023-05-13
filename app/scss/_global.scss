@@ -4,10 +4,10 @@
  }
 
  body {
-     //  color: $text;
-     //  @extend %pop-400;
-     //  font-size: 16px;
-     //  line-height: 160%;
+     color: #fff;
+     @extend %mul-700;
+     font-size: 30px;
+     line-height: 35px;
      display: flex;
      flex-direction: column;
      background: #E8E9ED;
@@ -19,6 +19,21 @@
      padding: 0 10px;
  }
 
- a {
-     flex-shrink: 0;
+ //  a {
+ //      flex-shrink: 0;
+ //  }
+ h1,
+ h2 {
+     font-size: 50px;
+     line-height: 60px;
+     @extend %unb-400;
+ }
+
+ section {
+     padding-left: 90px;
+     padding-top: 116px;
+     padding-bottom: 116px;
+     border-radius: 30px;
+     background: #102230;
+     margin-bottom: 100px;
  }
